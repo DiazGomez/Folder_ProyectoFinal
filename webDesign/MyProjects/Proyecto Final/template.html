@@ -1,0 +1,54 @@
+
+            <!--Nombre: Daniel A. Diaz Gomez
+    Fecha: 28 de Febrero del año 2022
+    Curso: INTE2520L
+    Actividad: Proyecto Final -->
+    
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Daniel Landscaping</title>
+      <link rel="stylesheet" href="/MyProjects/Proyecto Final/SiteStyle/global.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+   </head>
+
+   <body>
+
+      <header>
+         <h3><a href="/MyProjects/Proyecto Final/Daniel Landscaping/Home/index.html" style="text-decoration: none;">Daniel Landscaping</a></h3>
+      </header>
+
+      <div class="container">
+         <div class="navbar">
+         <img src="/MyProjects/Proyecto Final/SiteImage/house.png" class="logo">  
+      <nav>
+      <ul id="menulist">
+         <li><a href="/MyProjects/Proyecto Final/Daniel Landscaping/Home/About/Employees/Careers/About.html">About</a></li>
+         <li><a href="/MyProjects/Proyecto Final/Daniel Landscaping/Home/Works/CaguasCidra/Works.html">Works</a></li>
+         <li><a href="/MyProjects/Proyecto Final/Daniel Landscaping/Home/Contact/Contact.html">Contact</a></li>
+      </ul>
+      </nav>
+      <img src="/MyProjects/Proyecto Final/SiteImage/menu.png" class="menu-icon" onclick="togglemenu()">
+      </div>
+
+  
+      <footer>
+         <p>Se realiza todo tipo de trabajo de jardinería!</p>
+      </footer>
+
+      <script>
+         var menulist = document.getElementById("menulist");
+         menulist.style.maxHeight = "0px";
+         function togglemenu(){
+            if(menulist.style.maxHeight == "0px")
+            {
+               menulist.style.maxHeight = "130px";
+            }
+            else{
+               menulist.style.maxHeight = "0px";
+            }
+         }
+      </script>
+   </body>
+</html>
